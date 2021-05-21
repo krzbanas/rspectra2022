@@ -1,5 +1,5 @@
 ---
-title: 📊 Learn Data Science
+title: 📊 Learn to use R for spectroscopy
 linkTitle: Data Science
 summary: An example of using Wowchemy's Book layout for publishing online courses.
 date: '2021-01-24'

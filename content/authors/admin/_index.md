@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Krzysztof Banas
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Python Instructor
+role: R Instructor
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: Singapore Synchrotron Light Source
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include 
 
 interests:
 - Artificial Intelligence

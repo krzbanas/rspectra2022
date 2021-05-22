@@ -26,4 +26,3 @@ advanced:
 <br>
 
 This is a place where you find some hints and tips how to use R for the spectral data pre-processing, analysis and visualization.
-Introduce your courses here.

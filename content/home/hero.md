@@ -3,7 +3,7 @@ widget: hero
 headless: true
 weight: 10
 title: R Environment Courses
-hero_media: student.svg
+hero_media: Rshowcase.png
 design:
   background:
     gradient_angle: 0

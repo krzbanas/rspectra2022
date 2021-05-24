@@ -1,6 +1,6 @@
 ---
 title: 📊 Learn to use R for spectroscopy
-linkTitle: Data Science
+linkTitle: R Spectroscopy
 summary: Learn to use R for spectroscopy
 date: '2021-01-24'
 type: book

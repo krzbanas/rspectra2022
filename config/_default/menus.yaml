@@ -15,8 +15,8 @@ main:
     url: '/course/RSpec01/'
     weight: 10
     parent: courses
-  - name: Data science
-    url: '/course/example/'
+  - name: Colours in R
+    url: '/course/RColours/'
     weight: 20
     parent: courses
   - name: Blog

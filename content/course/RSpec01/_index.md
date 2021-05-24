@@ -6,9 +6,6 @@ date: '2021-01-24'
 type: book
 ---
 
-{{< figure src="featured.jpg" >}}
-
-{{< toc hide_on="xl" >}}
 
 ## What you will learn
 

@@ -16,13 +16,13 @@ Uni- and Multivariate Statistics
 
 
 
-## Histogram
+## Spectra Plotting
 
-## Dimenision Reduction
+## Maps Plotting
 
-## Clustering
+## base, lattice and ggplot2 plotting system
 
-## Modeling
+## Multiplots
 
 ## Quiz
 

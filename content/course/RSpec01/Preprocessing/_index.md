@@ -19,11 +19,23 @@ Spectral preprocessing
 
 ## Smoothing
 
+## Bining 
+
 ## Range Cutting
 
 ## Baseline correction
 
 ## Normalization
+ 
+ ### Min-Max (zero2one)
+ 
+ ### Area (TotInt)
+ 
+ ### Band (Range)
+ 
+ ### 
+ 
+ 
 
 ## Quiz
 

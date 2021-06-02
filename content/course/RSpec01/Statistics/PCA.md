@@ -16,17 +16,20 @@ Uni- and Multivariate Statistics
 
 
 
-## Histogram
+## Preparation
 
-## Dimenision Reduction
+## Scaling and Centering
 
-## Clustering
+## Classical PCA
 
-## Modeling
+## sparse PCA
 
+## robust PCA
+
+## PCA via the IRLBA algorithm
 ## Quiz
 
-{{< spoiler text="What is the parameter $\mu$?" >}}
-The parameter $\mu$ is the mean or expectation of the distribution.
+{{< spoiler text="What is IRLBA $\mu$?" >}}
+Fast Truncated Singular Value Decomposition and Principal Components Analysis for Large Dense and Sparse Matrices
 {{< /spoiler >}}
 

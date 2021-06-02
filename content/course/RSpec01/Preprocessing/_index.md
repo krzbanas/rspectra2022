@@ -39,7 +39,7 @@ Spectral preprocessing
 
 ## Quiz
 
-{{< spoiler text="What is PQN $\mu$?" >}}
+{{< spoiler text="What is PQN?" >}}
 Probabalistic Quotient Normalization
 {{< /spoiler >}}
 

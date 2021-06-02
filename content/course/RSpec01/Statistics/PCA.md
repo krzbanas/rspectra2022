@@ -29,7 +29,7 @@ Uni- and Multivariate Statistics
 ## PCA via the IRLBA algorithm
 ## Quiz
 
-{{< spoiler text="What is IRLBA $\mu$?" >}}
+{{< spoiler text="What is IRLBA?" >}}
 Fast Truncated Singular Value Decomposition and Principal Components Analysis for Large Dense and Sparse Matrices
 {{< /spoiler >}}
 

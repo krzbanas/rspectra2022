@@ -33,13 +33,13 @@ Spectral preprocessing
  
  ### Band (Range)
  
- ### 
+ ### Probabalistic Quotient Normalization
  
  
 
 ## Quiz
 
-{{< spoiler text="What is the parameter $\mu$?" >}}
-The parameter $\mu$ is the mean or expectation of the distribution.
+{{< spoiler text="What is PQN $\mu$?" >}}
+Probabalistic Quotient Normalization
 {{< /spoiler >}}
 

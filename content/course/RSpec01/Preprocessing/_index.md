@@ -27,8 +27,13 @@ Spectral preprocessing
 
 ### Asymmetric Least Squares
 Baseline correction by 2nd derivative constrained weighted regression.
+### Fill peaks
+An iterative algorithm using suppression of baseline by means in local windows
+### Iterative Restricted Least Squares
+An algorithm with primary smoothing and repeated baseline suppressions and regressions with 2nd derivative constraint.
+### Low-pass FFT filter
+An algorithm for removing baselines based on Fast Fourier Transform filtering
 ### 
-
 
 ## Normalization
  

@@ -44,6 +44,8 @@ algorithm based on LOWESS and weighted regression
 ### Rolling ball
 Ideas from Rolling Ball algorithm for X-ray spectra by M.A.Kneen and H.J. Annegarn.  Variablewindow width has been left out
 ### Shirley Background Estimation
+Shirley Background correction for X-ray Photoelectron Spectroscopy.
+The shape of the spectrum background or baseline is affected by inelastic energy loss processes,secondary electrons and nearby peaks. A reasonable approximation is essential for a qualitative andquantitative analysis of XPS data especially if several components interfere in one spectrum.  Thechoice of an adequate background model is determined by the physical and chemical conditions ofthe measurements and the significance of the background to the information to be obtained.  Thesubtraction of the baseline before entering the fit iterations or the calculation of the peak area can bean acceptable approximation for simple analytical problems. In order to obtain chemical and phys-ical parameters in detail, however, it is absolutely necessary to include the background function inthe iterative peak fit procedure.
 
 ## Normalization
  

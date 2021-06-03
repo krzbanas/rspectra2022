@@ -25,6 +25,11 @@ Spectral preprocessing
 
 ## Baseline correction
 
+### Asymmetric Least Squares
+Baseline correction by 2nd derivative constrained weighted regression.
+### 
+
+
 ## Normalization
  
  ### Min-Max (zero2one)

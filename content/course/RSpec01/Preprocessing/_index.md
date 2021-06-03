@@ -43,7 +43,7 @@ Peak detection is done in several steps sorting out real peaks through different
 algorithm based on LOWESS and weighted regression
 ### Rolling ball
 Ideas from Rolling Ball algorithm for X-ray spectra by M.A.Kneen and H.J. Annegarn.  Variablewindow width has been left out
-### 
+### Shirley Background Estimation
 
 ## Normalization
  

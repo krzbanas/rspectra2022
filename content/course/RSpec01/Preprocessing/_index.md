@@ -33,7 +33,17 @@ An iterative algorithm using suppression of baseline by means in local windows
 An algorithm with primary smoothing and repeated baseline suppressions and regressions with 2nd derivative constraint.
 ### Low-pass FFT filter
 An algorithm for removing baselines based on Fast Fourier Transform filtering
-### 
+### Median window
+An algorithm finding medians in local windows and smoothing with gaussian weighting
+### Modified polynomial fitting
+Polynomial fitting with baseline suppression relative to original spectrum
+### Simultaneous Peak Detection and Baseline Correction
+Peak detection is done in several steps sorting out real peaks through different criteria.  Peaks areremoved from spectra and minimums and medians are used to smooth the remaining parts of thespectra. Ifsnminimumis omitted, y3, midspec, y and y2 are not returned (faster)
+### Robust Baseline Estimation
+algorithm based on LOWESS and weighted regression
+### Rolling ball
+Ideas from Rolling Ball algorithm for X-ray spectra by M.A.Kneen and H.J. Annegarn.  Variablewindow width has been left out
+
 
 ## Normalization
  

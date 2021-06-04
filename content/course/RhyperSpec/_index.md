@@ -1,7 +1,7 @@
 ---
-title: 📊 Colours in R
-linkTitle: Colours in R
-summary: Colours in R
+title: 📊 Library hyperSpec
+linkTitle:  Library hyperSpec
+summary:  Library hyperSpec
 date: '2021-01-24'
 type: book
 ---

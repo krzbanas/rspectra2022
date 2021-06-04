@@ -1,21 +1,13 @@
 ---
-title: 📊 Learn to use R for spectroscopy
-linkTitle: R Spectroscopy
-summary: Learn to use R for spectroscopy
+title: 📊 Colours in R
+linkTitle: Colours in R
+summary: Colours in R
 date: '2021-01-24'
 type: book
 ---
 
 
 ## What you will learn
-
-- Fundamental {{<hl>}}Python programming skills{{</hl>}}
-- {{<hl>}}Statistical concepts{{</hl>}} and how to apply them in practice
-- Gain experience with the {{<hl>}}Scikit{{</hl>}}, including data visualization with {{<hl>}}Plotly{{</hl>}} and data wrangling with {{<hl>}}Pandas{{</hl>}}
-
-## Program overview
-
-The demand for skilled data science practitioners is rapidly growing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi.
 
 ## Courses in this program
 

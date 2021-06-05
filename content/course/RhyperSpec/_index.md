@@ -1,6 +1,6 @@
 ---
 title: 📊 Library hyperSpec
-linkTitle:  Library hyperSpec
+linkTitle: hyperSpec
 summary:  Library hyperSpec
 date: '2021-01-24'
 type: book

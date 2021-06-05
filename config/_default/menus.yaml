@@ -16,11 +16,11 @@ main:
     weight: 10
     parent: courses
   - name: hyperSpec
-    url: '/course/Rhyperspec/'
+    url: '/course/RhyperSpec/'
     weight: 20
     parent: courses
   - name: ChemoSpec
-    url: '/course/Rchemospec/'
+    url: '/course/RChemoSpec/'
     weight: 30
     parent: courses
   - name: Colours in R

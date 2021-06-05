@@ -1,6 +1,6 @@
 ---
 title: 📊 Library ChemoSpec
-linkTitle:  Library ChemoSpec
+linkTitle:  chemospec
 summary:  Library ChemoSpec
 date: '2021-01-24'
 type: book

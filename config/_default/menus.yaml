@@ -15,9 +15,17 @@ main:
     url: '/course/RSpec01/'
     weight: 10
     parent: courses
+  - name: hyperSpec
+    url: '/course/hyperspec/'
+    weight: 20
+    parent: courses
+  - name: ChemoSpec
+    url: '/course/chemospec/'
+    weight: 30
+    parent: courses
   - name: Colours in R
     url: '/course/RColours/'
-    weight: 20
+    weight: 40
     parent: courses
   - name: Blog
     url: '/post'

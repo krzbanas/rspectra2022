@@ -17,7 +17,7 @@ How to import spectral data into R.
 
 ## In ChemoSpec
 
-'''
+```r
 library(ChemoSpec)
 
 # create SpectraObject
@@ -33,7 +33,7 @@ spectra01<-matrix2SpectraObject(gr.crit = c("Control","Infected"),
                                 dec = ".")
 # check
 sumSpectra(spectra01)
-'''
+```
 
 {{< callout note >}}
 The parameter $\mu$ is the mean or expectation of the distribution.

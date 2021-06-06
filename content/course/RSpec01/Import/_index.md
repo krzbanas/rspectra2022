@@ -36,9 +36,7 @@ sumSpectra(spectra01)
 ```
 
 {{< callout note >}}
-The parameter $\mu$ is the mean or expectation of the distribution.
-$\sigma$ is its standard deviation.
-The variance of the distribution is $\sigma^{2}$.
+The parameter $gr.crit$ is used for dividing the spectra into groups.
 {{< /callout >}}
 
 ## Quiz

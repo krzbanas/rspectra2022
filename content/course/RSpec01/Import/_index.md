@@ -15,13 +15,25 @@ How to import spectral data into R.
 
 {{< icon name="clock" pack="fas" >}} 1-2 hours per week, for 8 weeks
 
-## Learn
+## In ChemoSpec
 
-The general form of the **normal** probability density function is:
+'''
+library(ChemoSpec)
 
-$$
-f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
-$$
+# create SpectraObject
+spectra01<-matrix2SpectraObject(gr.crit = c("Control","Infected"),
+                                gr.cols = c("auto"),
+                                freq.unit = "Wavenumber [cm -1]",
+                                int.unit = "Absorbance [a.u.]",
+                                descrip = "Aspirin Study",
+                                in.file = "spectra01.csv",
+                                out.file = "spectra01",
+                                chk = TRUE,
+                                sep = ",",
+                                dec = ".")
+# check
+sumSpectra(spectra01)
+'''
 
 {{< callout note >}}
 The parameter $\mu$ is the mean or expectation of the distribution.

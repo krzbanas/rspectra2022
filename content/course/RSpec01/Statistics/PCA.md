@@ -3,7 +3,7 @@ title: Prinicipal Component Analysis
 linkTitle: PCA
 date: '2021-01-01'
 type: book
-weight: 40
+weight: 35
 math: true
 tags:
   - Statistics

@@ -60,7 +60,7 @@ object01<-new("hyperSpec", wavelength = wavenumber,
 #check
 object01
 ```
-## Matrix
+## Folder with two column ASCII files
 
 ### In ChemoSpec
 
@@ -84,7 +84,7 @@ sumSpectra(spectra01)
 
 
 {{< callout note >}}
-If the data files are in different folder (or subfolder) one should provide $path$. Both full path and relative ($path ="DATA"$) work.
+If the data files are in different folder (or subfolder) one should provide $path$. Both full path and relative (```r path ="DATA"```) work.
 {{< /callout >}}
 
 

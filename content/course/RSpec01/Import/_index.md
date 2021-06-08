@@ -84,7 +84,7 @@ sumSpectra(spectra01)
 
 
 {{< callout note >}}
-If the data files are in different folder (or subfolder) one should provide $path$
+If the data files are in different folder (or subfolder) one should provide $path$. Both full path and relative ($path ="DATA"$) work.
 {{< /callout >}}
 
 

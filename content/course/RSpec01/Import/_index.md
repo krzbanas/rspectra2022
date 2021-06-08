@@ -13,9 +13,9 @@ How to import spectral data into R?
 
 <!--more-->
 
-# Matrix
+## Matrix
 
-## In ChemoSpec
+### In ChemoSpec
 
 ```r
 library(ChemoSpec)
@@ -40,7 +40,7 @@ The parameter $gr.crit$ is used for dividing the spectra into groups.
 
 
 
-## In hyperSpec
+### In hyperSpec
 
 ```r
 library(hyperSpec)
@@ -60,9 +60,9 @@ object01<-new("hyperSpec", wavelength = wavenumber,
 #check
 object01
 ```
-# Matrix
+## Matrix
 
-## In ChemoSpec
+### In ChemoSpec
 
 ```r
 library(ChemoSpec)

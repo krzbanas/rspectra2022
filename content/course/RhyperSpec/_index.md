@@ -3,6 +3,7 @@ title: 📊 Library hyperSpec
 linkTitle: hyperSpec
 summary:  Library hyperSpec
 date: '2021-01-24'
+weight: 20
 type: book
 ---
 

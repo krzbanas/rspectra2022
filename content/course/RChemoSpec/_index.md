@@ -3,6 +3,7 @@ title: 📊 Library ChemoSpec
 linkTitle:  chemospec
 summary:  Library ChemoSpec
 date: '2021-01-24'
+weight: 30
 type: book
 ---
 

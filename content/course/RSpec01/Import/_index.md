@@ -9,11 +9,11 @@ tags:
   - Statistics
 ---
 
-How to import spectral data into R.
+How to import spectral data into R?
 
 <!--more-->
 
-{{< icon name="clock" pack="fas" >}} 1-2 hours per week, for 8 weeks
+# Matrix
 
 ## In ChemoSpec
 
@@ -60,6 +60,27 @@ object01<-new("hyperSpec", wavelength = wavenumber,
 #check
 object01
 ```
+# Matrix
+
+## In ChemoSpec
+
+```r
+library(ChemoSpec)
+# create SpectraObject
+spectra01<-matrix2SpectraObject(gr.crit = c("Control","Infected"),
+                                gr.cols = c("auto"),
+                                freq.unit = "Wavenumber [cm -1]",
+                                int.unit = "Absorbance [a.u.]",
+                                descrip = "Aspirin Study",
+                                in.file = "spectra01.csv",
+                                out.file = "spectra01",
+                                chk = TRUE,
+                                sep = ",",
+                                dec = ".")
+# check
+sumSpectra(spectra01)
+```
+
 
 
 ## Quiz

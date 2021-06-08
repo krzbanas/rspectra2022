@@ -3,6 +3,7 @@ title: 📊 Learn to use R for spectroscopy
 linkTitle: R Spectroscopy
 summary: Learn to use R for spectroscopy
 date: '2021-01-24'
+weight: 10
 type: book
 ---
 

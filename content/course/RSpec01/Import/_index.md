@@ -67,19 +67,25 @@ object01
 ```r
 library(ChemoSpec)
 # create SpectraObject
-spectra01<-matrix2SpectraObject(gr.crit = c("Control","Infected"),
-                                gr.cols = c("auto"),
-                                freq.unit = "Wavenumber [cm -1]",
-                                int.unit = "Absorbance [a.u.]",
-                                descrip = "Aspirin Study",
-                                in.file = "spectra01.csv",
-                                out.file = "spectra01",
-                                chk = TRUE,
-                                sep = ",",
-                                dec = ".")
+spec <- files2SpectraObject(gr.crit = c("T01","T02","T03","T04"),
+                            gr.cols = c("auto"),
+                            freq.unit = "Wavenumber [cm -1]",
+                            int.unit = "Absorbance [a.u.]",
+                            descrip = "Propolis",
+                            path ="D:/CHEMOSPEC_PCA_TEST/DATA/",
+                            fileExt = "\\.(txt|TXT)$",
+                            out.file = "spectra02",
+                            chk = TRUE,
+                            sep = ",",
+                            dec = ".")
 # check
 sumSpectra(spectra01)
 ```
+
+
+{{< callout note >}}
+The parameter $gr.crit$ is used for dividing the spectra into groups.
+{{< /callout >}}
 
 
 

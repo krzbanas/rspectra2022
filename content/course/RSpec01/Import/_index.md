@@ -92,6 +92,6 @@ If the data files are in different folder (or subfolder) one should provide `pat
 ## Quiz
 
 {{< spoiler text="What function to use in R to transpose matrix?" >}}
-Function $t(matrix)$
+Function name is  `t(matrix)`
 {{< /spoiler >}}
 

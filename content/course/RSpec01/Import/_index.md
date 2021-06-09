@@ -35,7 +35,7 @@ sumSpectra(spectra01)
 ```
 
 {{< callout note >}}
-The parameter $gr.crit$ is used for dividing the spectra into groups.
+The parameter `gr.crit` is used for dividing the spectra into groups.
 {{< /callout >}}
 
 
@@ -84,7 +84,7 @@ sumSpectra(spectra01)
 
 
 {{< callout note >}}
-If the data files are in different folder (or subfolder) one should provide $path$. Both full path and relative (```r path ="DATA"```) work.
+If the data files are in different folder (or subfolder) one should provide `path`. Both full path and relative (`r path ="DATA"`) work.
 {{< /callout >}}
 
 

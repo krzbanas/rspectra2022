@@ -3,7 +3,7 @@ title: Variables Standarization
 linkTitle: Standarization
 date: '2021-01-01'
 type: book
-weight: 20
+weight: 50
 math: true
 tags:
   - Statistics
@@ -22,9 +22,11 @@ Variables Standarization
 
 ## Min-max Scalling
 
+## Standard Deviation Method
 
+## Range Method
  
- ### When and why it is required?
+ ## When and why it is required?
  
  
 

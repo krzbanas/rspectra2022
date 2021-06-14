@@ -47,8 +47,8 @@ address_format: en-us
 
 # Site features
 
-highlight: false
-highlight_languages: []
+highlight: true
+highlight_languages: ["r"]
 math: false
 diagram: false
 privacy_pack: false

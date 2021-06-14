@@ -27,6 +27,10 @@ main:
     url: '/course/RColours/'
     weight: 40
     parent: courses
+  - name: Tips and Ticks
+    url: '/course/RTips/'
+    weight: 50
+    parent: courses
   - name: Blog
     url: '/post'
     weight: 30

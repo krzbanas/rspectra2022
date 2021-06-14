@@ -18,6 +18,18 @@ Variables Standarization
 
 ## Motivation
 
+## Subtracting the mean
+
+```r
+all03 <- sweep (all02, 2, mean, "-")
+```
+
+## Dividing by the standard deviation
+
+```r
+all04 <- sweep (all03, 2, sd, "/")
+```
+
 ## Z-Score
 
 ## Min-max Scalling

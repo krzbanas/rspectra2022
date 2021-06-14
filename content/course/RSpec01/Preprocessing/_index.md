@@ -19,6 +19,12 @@ Spectral preprocessing
 
 ## Smoothing
 
+```r
+all02 <- spc.loess (all01 , seq (400, 4000, 1))
+all02 <- spc.loess (all01 , seq (400, 4000,  length.out = 1000))
+```
+
+
 ## Bining 
 
 ## Range Cutting

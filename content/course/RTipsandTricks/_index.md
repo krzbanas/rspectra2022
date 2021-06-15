@@ -33,7 +33,7 @@ library(here)
 data01<-here::here("FOLDER","SUBFOLDER", "file01.csv")
 # call the function
 dataset01 <- read_csv(data01)
-# this code chunk is OS universal as function here guess the working directory b
+# this code chunk is OS universal
 ```
 
 `here::here()` figures out the top-level of the current project using some sane heuristics. It looks at working directory, checks a criterion and, if not satisfied, moves up to parent directory and checks again. Lather, rinse, repeat.

@@ -24,6 +24,13 @@ for(i in 1:10)
 ```
 
 
+## Use here package
+
+```r
+library(here)
+
+```
+
 ## Meet your instructor
 
 {{< mention "admin" >}}

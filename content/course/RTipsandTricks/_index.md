@@ -24,7 +24,7 @@ for(i in 1:10)
 ```
 
 
-## Use here package
+## Use `here` package
 
 ```r
 library(here)
@@ -36,17 +36,18 @@ dataset01 <- read_csv(data01)
 # this code chunk is OS universal as function here guess the working directory b
 ```
 
-here::here() figures out the top-level of the current project using some sane heuristics. It looks at working directory, checks a criterion and, if not satisfied, moves up to parent directory and checks again. Lather, rinse, repeat.
+`here::here()` figures out the top-level of the current project using some sane heuristics. It looks at working directory, checks a criterion and, if not satisfied, moves up to parent directory and checks again. Lather, rinse, repeat.
 
 Here are the criteria. The order doesn’t really matter because all of them are checked for each directory before moving up to the parent directory:
-    -Is a file named .here present?
-    -Is this an RStudio Project? Literally, can I find a file named something like foo.Rproj?
-    -Is this an R package? Does it have a DESCRIPTION file?
-    -Is this a remake project? Does it have a file named remake.yml?
-    -Is this a projectile project? Does it have a file named .projectile?
-    -Is this a checkout from a version control system? Does it have a directory named .git or .svn? Currently, only Git and Subversion are supported.
 
-If no criteria match, the current working directory will be used as fallback. Use set_here() to create an empty .here file that will stop the search if none of the other criteria apply. dr_here() will attempt to explain why here decided the root location the way it did. See the function reference for more detail.
+-Is a file named .here present?
+-Is this an RStudio Project? Literally, can I find a file named something like foo.Rproj?
+-Is this an R package? Does it have a DESCRIPTION file?
+-Is this a remake project? Does it have a file named remake.yml?
+-Is this a projectile project? Does it have a file named .projectile?
+-Is this a checkout from a version control system? Does it have a directory named .git or .svn? Currently, only Git and Subversion are supported.
+
+If no criteria match, the current working directory will be used as fallback. Use `set_here()` to create an empty .here file that will stop the search if none of the other criteria apply. `dr_here()` will attempt to explain why here decided the root location the way it did. See the function reference for more detail.
 
 
 ## Meet your instructor

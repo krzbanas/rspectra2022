@@ -49,15 +49,28 @@ Here are the criteria. The order doesn’t really matter because all of them are
 
 If no criteria match, the current working directory will be used as fallback. Use `set_here()` to create an empty .here file that will stop the search if none of the other criteria apply. `dr_here()` will attempt to explain why here decided the root location the way it did. See the function reference for more detail.
 
-
-
-
-
 ## Problem with the function name.
 
-Sometimes the same function name is used in various libraries, so the order of the libraries loading matters as latter library will *cover* the function with it's own definition.
-This may cause the problems in the code if the User calls the function and is expecting different behaviour. There are two ways to deal with this issue. One is to rename the function in question before loading next package that contains the function under the same name. Another (recommended) is to write in code explictly function from which package should be used  
+Sometimes the same function name is used in various libraries, so the order of the libraries loading matters as latter library will *mask* the function with it's own definition.
+This may cause the problems in the code if the User calls the function and is expecting different behaviour. There are two ways to deal with this issue. One is to rename the function in question before loading next package that contains the function under the same name. Another (recommended) is to write in code explictly function from which package should be used To specify the package that you want to use, the syntax is following 'package::function.name()'  
 
+
+```r
+chron::is.weekend()
+tseries::is.weekend()
+
+#In other words, use 
+package.name::function.name()
+#In addition, if you know that you will always want to use the function in chron, #you can define your own function as follows:
+is.weekend <- chron::is.weekend #EDIT
+
+library(chron)
+is.weekend.chron <- is.weekend
+library(tseries)
+# then you can call is.weekend for the tseries version or is.weekend.chron for the chron version
+
+
+```
 
 
 

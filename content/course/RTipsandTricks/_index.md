@@ -14,7 +14,7 @@ type: book
 #
 # export every spectrum to single file (automaticaly named) in long format 
 # two columns with many rows - first column wavenumber second column absorbance no headers
-# if hyperSpec object test have more than 10 spectra first 10 will be exported
+# if hyperSpec object test have more than 10 spectra first 10 will be exported with this code
 #
 for(i in 1:10)
 { 
@@ -48,6 +48,17 @@ Here are the criteria. The order doesn’t really matter because all of them are
 - Is this a checkout from a version control system? Does it have a directory named .git or .svn? Currently, only Git and Subversion are supported.
 
 If no criteria match, the current working directory will be used as fallback. Use `set_here()` to create an empty .here file that will stop the search if none of the other criteria apply. `dr_here()` will attempt to explain why here decided the root location the way it did. See the function reference for more detail.
+
+
+
+
+
+## Problem with the function name.
+
+Sometimes the same function name is used in various libraries, so the order of the libraries loading matters as latter library will *cover* the function with it's own definition.
+This may cause the problems in the code if the User calls the function and is expecting different behaviour. There are two ways to deal with this issue. One is to rename the function in question before loading next package that contains the function under the same name. Another (recommended) is to write in code explictly function from which package should be used  
+
+
 
 
 ## Meet your instructor

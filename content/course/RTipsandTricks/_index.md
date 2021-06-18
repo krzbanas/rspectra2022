@@ -74,8 +74,16 @@ library(tseries)
 
 ## Custom function output
 
-There are some ways to direct the function output to create an object in the environment. 
+There are some ways to direct the function output to create an object in the environment. You may modify the body of the function to assign the output to the object (by using `assign` function or `<<-` sign.
 
+```r
+
+```
+Alternatively, you can keep usual `<-` command but with calling the function direct it to the new object.
+
+```r
+
+```
 
 ## Meet your instructor
 

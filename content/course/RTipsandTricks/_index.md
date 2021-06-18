@@ -95,22 +95,14 @@ import_folder_1C <-function(path, skip, nrows, string) {
   spectra01<<-new ("hyperSpec", wavelength = channel, spc = spc, data= df1)
   return(spectra01)
   }
-
-
-
 ```
-Alternatively, you can keep usual `<-` command but with calling the function direct it to the new object.
+
+Alternatively, you can keep usual `<-` instead of `<<-` command, but with calling the function directly to the new object.
 
 ```r
 library(here)
 data01 <- file.path (here::here("SOLVENT"))
 spectra02<-import_folder_1C(data01,19,2048,3)
-
-data03 <- file.path (here::here("SAMPLES"))
-spectra03<-import_folder_1C(data03,19,2048,3)
-
-data04 <- file.path (here::here("CALIBRATION"))
-spectra04<-import_folder_1C(data04,19,2048,3)
 ```
 
 ## Meet your instructor

@@ -72,6 +72,9 @@ library(tseries)
 
 ```
 
+## Custom function output
+
+There are some ways to direct the function output to create an object in the environment. 
 
 
 ## Meet your instructor

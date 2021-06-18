@@ -77,12 +77,40 @@ library(tseries)
 There are some ways to direct the function output to create an object in the environment. You may modify the body of the function to assign the output to the object (by using `assign` function or `<<-` sign.
 
 ```r
+import_folder_1C <-function(path, skip, nrows, string) {
+  library(hyperSpec)
+  files <- list.files (path = path)
+  buffer <- read.table(file.path(path,files [1 ]), skip=skip, nrows = nrows)
+  spc <- matrix (ncol = nrow (buffer), nrow = length (files))
+  spc [1 , ] <- buffer [, 1 ]
+    for ( f in seq (along = files)[- 1])
+    {
+      buffer <- read.table(file.path(path,files [f ]), skip=skip, nrows = nrows)
+      spc [f, ] <- buffer[, 1]
+    }
+  channel <- c(1:nrows)
+  sample<-substring(files,1,string)
+  df1<-data.frame (sample)
+  colnames(df1)=c( "sample")
+  spectra01<<-new ("hyperSpec", wavelength = channel, spc = spc, data= df1)
+  return(spectra01)
+  }
+
+
 
 ```
 Alternatively, you can keep usual `<-` command but with calling the function direct it to the new object.
 
 ```r
+library(here)
+data01 <- file.path (here::here("SOLVENT"))
+spectra02<-import_folder_1C(data01,19,2048,3)
 
+data03 <- file.path (here::here("SAMPLES"))
+spectra03<-import_folder_1C(data03,19,2048,3)
+
+data04 <- file.path (here::here("CALIBRATION"))
+spectra04<-import_folder_1C(data04,19,2048,3)
 ```
 
 ## Meet your instructor

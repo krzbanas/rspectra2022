@@ -17,6 +17,17 @@ How to export spectral data from R.
 
 ## In ChemoSpec
 
+### Export mean spectrum
+```r
+
+```
+
+### Export mean spectrum pm SD
+```r
+
+```
+
+### Export map matrix (chemical imaging)
 ```r
 
 ```

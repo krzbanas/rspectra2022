@@ -19,7 +19,8 @@ tseries::is.weekend()
 
 #In other words, use 
 package.name::function.name()
-#In addition, if you know that you will always want to use the function in chron, #you can define your own function as follows:
+#In addition, if you know that you will always want to use the function in chron, 
+#you can define your own function as follows:
 is.weekend <- chron::is.weekend #EDIT
 
 library(chron)

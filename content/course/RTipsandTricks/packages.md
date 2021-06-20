@@ -1,6 +1,6 @@
 ---
-title: 📊 PAckages
-linkTitle: Tips
+title: 📊 Packages
+linkTitle: Packages
 summary: Tips and tricks
 date: '2021-01-24'
 weight: 20

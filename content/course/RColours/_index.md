@@ -28,6 +28,21 @@ display.brewer.all()
 
 Blues Greens Greys Oranges Purples Reds
 
+## Palettes in ggplot2
+
+`r
+scale_colour_brewer(..., type = "seq", palette = 1, direction = 1)
+scale_fill_brewer(..., type = "seq", palette = 1, direction = 1)
+scale_colour_distiller(..., type = "seq", palette = 1, direction = -1,
+  values = NULL, space = "Lab", na.value = "grey50",
+  guide = "colourbar")
+scale_fill_distiller(..., type = "seq", palette = 1, direction = -1,
+  values = NULL, space = "Lab", na.value = "grey50",
+  guide = "colourbar”)
+d + scale_colour_brewer(palette = "Greens”)
+p + scale_fill_brewer(direction = -1)
+`
+
 
 ## Meet your instructor
 

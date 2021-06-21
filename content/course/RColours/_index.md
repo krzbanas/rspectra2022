@@ -14,6 +14,14 @@ type: book
 
 {{< list_children >}}
 
+
+
+## R Color Brewer
+
+```r
+library("RColorBrewer")
+display.brewer.all()
+```
 ## Meet your instructor
 
 {{< mention "admin" >}}

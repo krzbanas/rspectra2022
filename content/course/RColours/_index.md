@@ -16,7 +16,7 @@ type: book
 
 
 
-## R Color Brewer
+## `RColorBrewer`
 
 ```r
 library("RColorBrewer")
@@ -28,7 +28,7 @@ display.brewer.all()
 
 Blues Greens Greys Oranges Purples Reds
 
-## Palettes in ggplot2
+## Palettes in `ggplot2`
 
 ```r
 scale_colour_brewer(..., type = "seq", palette = 1, direction = 1)
@@ -43,6 +43,7 @@ d + scale_colour_brewer(palette = "Greens”)
 p + scale_fill_brewer(direction = -1)
 ```
 
+## `paletteer` package
 
 ## Meet your instructor
 

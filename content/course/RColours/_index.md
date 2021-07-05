@@ -45,6 +45,32 @@ p + scale_fill_brewer(direction = -1)
 
 ## `paletteer` package
 
+This a one stop destination for anyone looking for a color palette to use in `r`.
+Following packages are included:
+ - `awtools`
+ - `cartography`
+ - `dichromat`
+ - `dutchmasters`
+ - `ggsci`
+ - `ggpomological`
+ - `ggthemes`
+ - `ghibli`
+ - `grDevices
+ - jcolors
+ - LaCroixColoR
+ - NineteenEightyR
+ - nord
+ - ochRe
+ - oompaBase
+ - palettetown
+ - palr
+ - pals
+ - Polychrome
+
+
+
+
+
 ## Meet your instructor
 
 {{< mention "admin" >}}

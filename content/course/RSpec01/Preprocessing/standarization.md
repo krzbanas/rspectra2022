@@ -38,7 +38,7 @@ all04 <- sweep (all03, 2, sd, "/")
 
 ## Range Method
  
- ## When and why it is required?
+## When and why it is required?
  
  
 

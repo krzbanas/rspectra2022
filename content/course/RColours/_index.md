@@ -55,17 +55,17 @@ Following packages are included:
  - `ggpomological`
  - `ggthemes`
  - `ghibli`
- - `grDevices
- - jcolors
- - LaCroixColoR
- - NineteenEightyR
- - nord
- - ochRe
- - oompaBase
- - palettetown
- - palr
- - pals
- - Polychrome
+ - `grDevices`
+ - `jcolors`
+ - `LaCroixColoR`
+ - `NineteenEightyR`
+ - `nord`
+ - `ochRe`
+ - `oompaBase`
+ - `palettetown`
+ - `palr`
+ - `pals`
+ - `Polychrome`
 
 
 

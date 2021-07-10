@@ -1,5 +1,5 @@
 ---
-title: 📊 Colours in R
+title:Colours in R
 linkTitle: Colours in R
 summary: Colours in R
 date: '2021-01-24'

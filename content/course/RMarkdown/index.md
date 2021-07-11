@@ -36,20 +36,12 @@ R Markdown follows the syntax in Pandoc's Markdown
 
 ## Links, footnotes, equations, lists
 
-
-
-
-
-
-
-
-
 * link text to section headers in the same document [Conclusion](#conclusion)
 * Multi-word headers need hyphenation [Literature Review](#literature-review)
 * You can link text to URLs [visit my website](https://resulumit.com/) [email me](mailto:resuluy@uio.no)
 * Inline equations go between a pair of single dollar signs $ — with no space between the signs and the equation itself $E = mc^{2}$
 * Block equations go in between a pair of double dollar signs — with or without spaces, it works $$ E = mc^{2}$$
-* For inline footnotes, use the ^[footnote] syntax ^[Corresponding author.] the caret sign ^ comes before the left square bracket [ this syntax works in YAML as well as in text footnotes in YAML get symbols, in text they get numbers
+* For inline footnotes, use the ^[footnote] syntax ^[Corresponding author.] the caret sign ^ comes before the left square bracket [this syntax works in YAML as well as in text footnotes in YAML get symbols, in text they get numbers]
 * An alternative is to use the [^identifier] syntax, with identifiers defined elsewhere in the same document the caret sign comes after the left square bracket this syntax works in text, but not in YAML
 * Lines starting with asterisk * as well as plus + or minus − signs introduce lists
 * Lists can be nested within each other, with indentation
@@ -60,7 +52,8 @@ R Markdown follows the syntax in Pandoc's Markdown
 * A pair of carets introduces superscript R^2^
 * the syntax here (Markdown-based) is different than the one for equations (LaTeX-based) e.g., R^2^ versus mc^{2}
 
-References
+## References
+
 * references are defined in .bib files
 * pandoc can process a citation only if there is a linked entry in the .bib file
 * A BibTeX entry consists of three elements: a type (@article), a citation-key (banas2021), a number of tags (title, author)
@@ -72,7 +65,7 @@ References
 * The list of references appears after the last line of the document, with no section header
 * For internal links from in-text citations to the reference list, set link-citations: yes in YAML
 
-Code Figures Tables
+## Code Figures Tables
 
 
 

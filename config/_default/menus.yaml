@@ -31,9 +31,13 @@ main:
     url: '/course/RMarkdown/'
     weight: 50
     parent: courses
+  - name: R Presentation
+    url: '/course/RPresentation/'
+    weight: 60
+    parent: courses
   - name: Tips and Ticks
     url: '/course/RTipsandTricks/'
-    weight: 60
+    weight: 70
     parent: courses
   - name: Blog
     url: '/post'

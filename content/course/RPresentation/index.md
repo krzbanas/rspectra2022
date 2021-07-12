@@ -10,13 +10,13 @@ type: book
 
 ## What you will learn
 
-Basics of R Markdown for manuscripts preparation in R.
+Basics of R Markdown for presentation preparation in R. 
 
 ## Courses in this program
 
 {{< list_children >}}
 
-R Markdown for preparing the presentations : 
+R Markdown for preparing the presentations : xaringan package
 
 ## Lines, paragraphs, headers
 

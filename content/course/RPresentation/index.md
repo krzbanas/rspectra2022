@@ -29,7 +29,7 @@ R Markdown for preparing the presentations : xaringan package
 ## Content Classes
 
 - The default theme of xaringan has provided four more content classes:
-- `.left-column [ ]` and `.right-column[ ]` provide a sidebar layout. The left sidebar is narrow (20% of the slide width), and the right column is the main column (75% of the slide width). If you have multiple level-2 (##) or level-3 (###) headings in the left column, the last heading will be highlighted, with previous headings being grayed out.
+- `.left-column[ ]` and `.right-column[ ]` provide a sidebar layout. The left sidebar is narrow (20% of the slide width), and the right column is the main column (75% of the slide width). If you have multiple level-2 (##) or level-3 (###) headings in the left column, the last heading will be highlighted, with previous headings being grayed out.
 - `.pull-left[ ]` and `.pull-right[ ]` provide a two-column layout, and the two columns are of the same width.
 
 ## Incremental Slides

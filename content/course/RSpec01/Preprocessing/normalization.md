@@ -15,7 +15,10 @@ tags:
  
  ### Area (TotInt)
  ```
+ # in hyperSpec
  hyper02<-sweep(hyper01, 1, mean, "/")
+ # in ChemoSpec
+ spectra01n_area<-normSpectra(spectra01, method="TotInt")
  ```
  ### Band (Range)
  

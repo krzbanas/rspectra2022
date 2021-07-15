@@ -14,7 +14,9 @@ tags:
  ### Min-Max (zero2one)
  
  ### Area (TotInt)
- 
+ ```
+ hyper02<-sweep(hyper01, 1, mean, "/")
+ ```
  ### Band (Range)
  
  ### Probabalistic Quotient Normalization

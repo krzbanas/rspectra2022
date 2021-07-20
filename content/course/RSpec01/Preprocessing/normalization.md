@@ -32,6 +32,9 @@ tags:
  spectra01n_PQN<-normSpectra(spectra01, method="PQN")
  ```
 
+### Another normalization
+If there is a requirement for using another normalization factor (for example to beam current value for XRF spectra) we can use similar approach as presented in Area section.
+
 ## Quiz
 
 {{< spoiler text="What is PQN?" >}}

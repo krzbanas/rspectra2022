@@ -35,6 +35,15 @@ tags:
 ### Another normalization
 If there is a requirement for using another normalization factor (for example to beam current value for XRF spectra) we can use similar approach as presented in Area section.
 
+ ```r
+#calculate normalization factor (divide by beam current and multiply by 1000 - for convenience)
+norm01<-1000/df$BC
+#then `sweep` over all spectra (remember that in hyperSpec object spectra are in rows so we should declare 1 as the margin)
+spectra01n<-sweep(spectra01,1,norm01,"*")
+ ```
+
+
+
 ## Quiz
 
 {{< spoiler text="What is PQN?" >}}

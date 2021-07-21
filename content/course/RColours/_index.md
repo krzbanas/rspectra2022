@@ -68,6 +68,10 @@ Following packages are included:
  - `Polychrome`
 
 
+##  Colour-blind friendly palettes
+
+
+## Other resources to work with colours (not `R` or partially `R` related)
 
 
 

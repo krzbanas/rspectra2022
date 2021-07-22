@@ -36,7 +36,7 @@ R Markdown for preparing the presentations : xaringan package
 
 - to show content incrementally on a slide (e.g., holding a funny picture until the last moment), you can use two dashes to separate the content.
 - The two dashes can appear anywhere except inside content classes, so you can basically split your content in any way you like
-- There are a few other advanced ways to build incremental slides documented in the presentation at (https://slides.yihui.name/xaringan/incremental.html)
+- There are a few other advanced ways to build incremental slides documented in the presentation [here](https://slides.yihui.name/xaringan/incremental.html)
 
 
 ## Presenter Notes

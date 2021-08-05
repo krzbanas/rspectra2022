@@ -57,8 +57,8 @@ R Markdown for preparing the presentations : xaringan package
 
 ## Code, figures, tables
 
--  Add image with '![Image of Momtocat](http://bit.ly/momtocat)' or straigh up html `<img src="http://bit.ly/wiki-toddy" width="15%" align="right" />`
-
+-  Add image with `![Image of Momtocat](url)` or straigh up html `<img src="http://bit.ly/wiki-toddy" width="15%" align="right" />`
+-  Code highlighting
 ## Presentation mode (shortcuts)
 
 -  key `h` (Help) or `?` on your keyboard to learn all possible keyboard shortcuts, which may help you better present your slides, press `h` or `?` again to exit the help page.

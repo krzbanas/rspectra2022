@@ -25,6 +25,8 @@ R Markdown for preparing the presentations : xaringan package
 - Background images can be set via the background-image property. The path should be put inside url()
 - There is a special slide, the title slide, that is automatically generated from the YAML metadata of your Rmd document
 - You can also disable the automatic title slide via the seal option and create one manually by yourself
+- Slides content may be align with declaration class: center, middle (optionas are: left center right and top middle bottom
+
 
 ## Content Classes
 
@@ -52,7 +54,8 @@ R Markdown for preparing the presentations : xaringan package
 ## References
 
 
-## Code Figures Tables
+## Code, figures tables
+
 
 
 ## Presentation mode (shortcuts)

@@ -71,7 +71,7 @@ R Markdown for preparing the presentations : xaringan package
   - basic `head(tx_names)`
   - kable `head(tx_names) %>% knitr::kable(format = "html") `
   - DT    `library(DT) head(tx_names) %>% datatable()`
-  - gt    `library(gt) head(tx_names) %>% gt()'
+  - gt    `library(gt) head(tx_names) %>% gt()`
       
 ## Background image, logo, other images
 -  Add image with `![Image of Momtocat](url)` or straigh up html `<img src="url" width="15%" align="right" />`

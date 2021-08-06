@@ -55,9 +55,8 @@ R Markdown for preparing the presentations : xaringan package
 ## References
 
 
-## Code, figures, tables
+## Code
 
--  Add image with `![Image of Momtocat](url)` or straigh up html `<img src="url" width="15%" align="right" />`
 -  Code highlighting:  wrapping a line in the code with ``{{..code..}}``, that line will be highlighted in the slides
 -  Another option: comment from the right `#<<` 
 -  Do not forget to set highlight in YAML
@@ -67,15 +66,16 @@ R Markdown for preparing the presentations : xaringan package
       highlightStyle: github
       highlightLines: true`
 -  Available highlight styles are: arta, ascetic, dark, default, far, github, googlecode, idea, ir-black, magula, monokai, rainbow, solarized-dark, solarized-light, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eighties, vs, zenburn
--  Tables:
-    - basic `head(tx_names)`
-    - kable `head(tx_names) %>% knitr::kable(format = "html") `
-    - DT    `library(DT) head(tx_names) %>% datatable()`
-    - gt    `library(gt) head(tx_names) %>% gt()
 
+## Tables
+  - basic `head(tx_names)`
+  - kable `head(tx_names) %>% knitr::kable(format = "html") `
+  - DT    `library(DT) head(tx_names) %>% datatable()`
+  - gt    `library(gt) head(tx_names) %>% gt()'
       
-      
-
+## Background image, logo, other images
+-  Add image with `![Image of Momtocat](url)` or straigh up html `<img src="url" width="15%" align="right" />`
+-  Maps: `library(leaflet) leaflet() %>% addTiles() %>% setView(lat = 30.2621, lng = -97.7382, zoom = 17)` 
 
 ## Presentation mode (shortcuts)
 

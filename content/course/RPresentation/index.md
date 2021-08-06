@@ -67,7 +67,11 @@ R Markdown for preparing the presentations : xaringan package
       highlightStyle: github
       highlightLines: true`
 -  Available highlight styles are: arta, ascetic, dark, default, far, github, googlecode, idea, ir-black, magula, monokai, rainbow, solarized-dark, solarized-light, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eighties, vs, zenburn
--  
+-  Tables:
+    - basic `head(tx_names)`
+    - kable `head(tx_names) %>% knitr::kable(format = "html") `
+    - DT    `library(DT) head(tx_names) %>% datatable()`
+    - gt    `library(gt) head(tx_names) %>% gt()
 
       
       

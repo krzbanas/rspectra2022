@@ -58,7 +58,21 @@ R Markdown for preparing the presentations : xaringan package
 ## Code, figures, tables
 
 -  Add image with `![Image of Momtocat](url)` or straigh up html `<img src="url" width="15%" align="right" />`
--  Code highlighting
+-  Code highlighting:  wrapping a line in the code with ``{{..code..}}``, that line will be highlighted in the slides
+-  Another option: comment from the right `#<<` 
+-  Do not forget to set highlight in YAML
+  `output: 
+  xaringan::moon_reader:
+    nature:
+      highlightStyle: github
+      highlightLines: true`
+-  Available highlight styles are: arta, ascetic, dark, default, far, github, googlecode, idea, ir-black, magula, monokai, rainbow, solarized-dark, solarized-light, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eighties, vs, zenburn
+-  
+
+      
+      
+
+
 ## Presentation mode (shortcuts)
 
 -  key `h` (Help) or `?` on your keyboard to learn all possible keyboard shortcuts, which may help you better present your slides, press `h` or `?` again to exit the help page.

@@ -55,14 +55,15 @@ R Markdown for preparing the presentations : xaringan package
 
 - In YAML set seal: false
 - Then create title slide from scratch: 
-` ---
-`class: inverse, center, middle
-`background-image: url(figs/p_and_p_cover.png)
-`background-size: cover
-`# Text Mining
-`<img src="figs/blue_jane.png" width="150px"/>
-`### USING TIDY PRINCIPLES
-`.large[Julia Silge | Deming Conference | 4 Dec 2018]
+
+` --- <br>
+`class: inverse, center, middle` <br>
+`background-image: url(figs/p_and_p_cover.png)` <br>
+`background-size: cover` <br>
+`# Text Mining` <br>
+`<img src="figs/blue_jane.png" width="150px"/>` <br>
+`### USING TIDY PRINCIPLES` <br>
+`.large[Julia Silge | Deming Conference | 4 Dec 2018]` <br>
 
 
 ## References

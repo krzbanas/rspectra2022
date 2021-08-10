@@ -45,12 +45,15 @@ R Markdown for preparing the presentations : xaringan package
 ## Presenter Notes
 
 - You can write notes for yourself to read in the presenter mode (press the keyboard shortcut p). These notes are written under three question marks `???` after a slide, and the syntax is also Markdown, which means you can write any elements supported by Markdown, such as paragraphs, lists, images, and so on
-- Slides are not papers or books, so you should try to be brief in the visual content of slides but verbose in verbal narratives.
+- Slides are not papers or books, so you should try to be brief in the visual content of slides, but verbose in verbal narratives.
 
 
 ## Links, footnotes, equations, lists
 
 
+## Own title page
+
+- In YAML set seal: false
 
 ## References
 

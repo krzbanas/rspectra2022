@@ -99,8 +99,12 @@ background-size: cover
   - gt    `library(gt) head(tx_names) %>% gt()`
       
 ## Background image, logo, other images
--  Add image with `![Image of Momtocat](url)` or straigh up html `<img src="url" width="15%" align="right" />`
--  Maps: `library(leaflet) leaflet() %>% addTiles() %>% setView(lat = 30.2621, lng = -97.7382, zoom = 17)` 
+-  Add image
+      - `![](img/camera-green.jpg)` (markdown)
+      - `knitr::include_graphics("img/camera-green.jpg")` (knitr)
+      - `<img src="img/camera-green.jpg" width="90%" align="right"/>` (html)
+      -  try to keep your images in subdirectory (called img or figures or whattoyoulike) with respect to presentation.Rmd file
+      -  Maps: `library(leaflet) leaflet() %>% addTiles() %>% setView(lat = 30.2621, lng = -97.7382, zoom = 17)` 
 
 ## Presentation mode (shortcuts)
 

@@ -51,6 +51,7 @@ R Markdown for preparing the presentations : xaringan package
 ## Links, footnotes, equations, lists
 
 - internal links: add `name: contents-slide` at the beginning of the slide, refer by `Go [back to Contents](#contents-slide)`
+- this strategy can work in both directions—not only for linking backwards, but also forwards in a presentation.
 
 
 ## Own title page
@@ -72,7 +73,7 @@ background-size: cover
 - `output:
   xaringan::moon_reader:
     css: [default, metropolis, metropolis-fonts]`
-- available options: (2*14)  "chocolate-fonts"  "chocolate"        "default-fonts"   "default"          "duke-blue"        "hygge-duke"       "hygge"            "kunoichi"         "lucy-fonts"       "lucy"             "metropolis-fonts" "metropolis"       "middlebury-fonts" "middlebury"       "ninjutsu"         "rladies-fonts"    "rladies"          "robot-fonts"      "robot"            "rutgers-fonts"    "rutgers"          "shinobi"          "tamu-fonts"       "tamu"             "uo-fonts"         "uo"               "uol-fonts"       
+- available options: (2*14)  "chocolate-fonts" "chocolate" "default-fonts"  "default"  "duke-blue"  "hygge-duke"   "hygge"   "kunoichi"  "lucy-fonts"  "lucy"  "metropolis-fonts" "metropolis"  "middlebury-fonts" "middlebury"  "ninjutsu" "rladies-fonts"    "rladies"   "robot-fonts"      "robot"            "rutgers-fonts"    "rutgers"          "shinobi"          "tamu-fonts"       "tamu"             "uo-fonts"    "uo"     "uol-fonts"       
  "uol"
 
 

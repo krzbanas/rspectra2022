@@ -50,6 +50,8 @@ R Markdown for preparing the presentations : xaringan package
 
 ## Links, footnotes, equations, lists
 
+- internal links: add `name: contents-slide` at the beginning of the slide, refer by `Go [back to Contents](#contents-slide)`
+
 
 ## Own title page
 

@@ -106,6 +106,13 @@ background-size: cover
       -  try to keep your images in subdirectory (called img or figures or whattoyoulike) with respect to presentation.Rmd file
       -  Maps: `library(leaflet) leaflet() %>% addTiles() %>% setView(lat = 30.2621, lng = -97.7382, zoom = 17)` 
 
+## Icons
+- `r emo::ji("smile") (surrounded by backticks)`
+- Copy and paste html directly from the website: `<i class="fas fa-brain"></i>`
+- use `icon::fa("rocket")` bigger `icon::fa("rocket", size = 2)` animated `icon::fa("rocket", size = 5, animate = "spin")`
+- use `r icons::fontawesome("brain")`
+
+
 ## Presentation mode (shortcuts)
 
 -  key `h` (Help) or `?` on your keyboard to learn all possible keyboard shortcuts, which may help you better present your slides, press `h` or `?` again to exit the help page.

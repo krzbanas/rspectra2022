@@ -111,6 +111,7 @@ background-size: cover
 - Copy and paste html directly from the website: `<i class="fas fa-brain"></i>`
 - use `icon::fa("rocket")` bigger `icon::fa("rocket", size = 2)` animated `icon::fa("rocket", size = 5, animate = "spin")`
 - use `r icons::fontawesome("brain")`
+- use academicons `r icons::fontawesome("orcid")`
 
 
 ## Presentation mode (shortcuts)

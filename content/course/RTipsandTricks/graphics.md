@@ -25,7 +25,8 @@ dataset01 <- read_csv(data01)
 ## Testing
 ```r
 library("plotly")
-plot_ly(economics, x = ~ date, y = ~ unemploy / pop)
+p1<-plot_ly(economics, x = ~ date, y = ~ unemploy / pop)
+p1
 ```
 
 ## Meet your instructor

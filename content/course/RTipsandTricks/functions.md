@@ -33,7 +33,7 @@ library(tseries)
 
 ## Custom function output
 
-There are some ways to direct the function output to create an object in the environment. You may modify the body of the function to assign the output to the object (by using `assign` function or `<<-` sign.
+There are some ways to direct the function output to create an object in the environment. You may modify the body of the function to assign the output to the object (by using `assign` function or `<<-` sign).
 
 ```r
 import_folder_1C <-function(path, skip, nrows, string) {

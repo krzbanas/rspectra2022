@@ -1,12 +1,13 @@
 ---
-title: 📊 Repel Labels
-linkTitle: Repel
+title: 📊 Graphics Tips
+linkTitle: Graphics
 summary: Tips and tricks
 date: '2021-08-17'
-weight: 20
+weight: 70
 type: book
 ---
 
+# Repel Labels
 
 ## Use `ggrepel` package
 

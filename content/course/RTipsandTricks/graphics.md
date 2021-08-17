@@ -21,7 +21,12 @@ dataset01 <- read_csv(data01)
 # this code chunk is OS universal
 ```
 
-
+# Plotly
+## Testing
+```r
+library("plotly")
+plot_ly(economics, x = ~ date, y = ~ unemploy / pop)
+```
 
 ## Meet your instructor
 

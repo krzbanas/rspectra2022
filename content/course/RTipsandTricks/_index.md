@@ -3,25 +3,10 @@ title: 📊 Some tips and tricks
 linkTitle: Tips
 summary: Tips and tricks
 date: '2021-01-24'
-weight: 60
+weight: 10
 type: book
 ---
 
-
-## Save multiple files with automatic naming
-
-```r
-#
-# export every spectrum to single file (automaticaly named) in long format 
-# two columns with many rows - first column wavenumber second column absorbance no headers
-# if hyperSpec object test have more than 10 spectra first 10 will be exported with this code
-#
-for(i in 1:10)
-{ 
-  name = paste(i,".","csv", sep = "")
-  write.txt.long(test[i,,],file=name, cols = c(".wavelength","spc"),col.names =FALSE)
-}
-```
 
 
 ## Meet your instructor

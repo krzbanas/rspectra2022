@@ -10,12 +10,11 @@ type: book
 
 ## Save multiple files with automatic naming
 
+Export every spectrum to single file (automaticaly named) in long format (two columns with many rows - first column wavenumber, second column absorbance, no headers)
+PS. If hyperSpec object test have more than 10 spectra first 10 will be exported with this code.
+
 ```r
-#
-# export every spectrum to single file (automaticaly named) in long format 
-# two columns with many rows - first column wavenumber second column absorbance no headers
-# if hyperSpec object test have more than 10 spectra first 10 will be exported with this code
-#
+
 for(i in 1:10)
 { 
   name = paste(i,".","csv", sep = "")

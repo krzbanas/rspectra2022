@@ -1,6 +1,6 @@
 ---
 title: Presentation Mode
-linkTitle: PresentationMode
+linkTitle: Presentation Mode
 summary: Presentation Mode
 date: '2021-07-12'
 weight: 70

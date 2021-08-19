@@ -13,21 +13,9 @@ type: book
 
 ```r
 library(ggrepel)
-
-# specify full path to the data files
-data01<-here::here("FOLDER","SUBFOLDER", "file01.csv")
-# call the function
-dataset01 <- read_csv(data01)
-# this code chunk is OS universal
 ```
 
-# Plotly
-## Testing
-```r
-library("plotly")
-p1<-plot_ly(economics, x = ~ date, y = ~ unemploy / pop)
-p1
-```
+
 
 ## Meet your instructor
 

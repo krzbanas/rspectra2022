@@ -1,7 +1,7 @@
 ---
-title: R Markdown
+title: Links, footnotes, equations, lists
 linkTitle: More
-summary: R Markdown
+summary: Links, footnotes, equations, lists
 date: '2021-01-24'
 weight: 20
 type: book

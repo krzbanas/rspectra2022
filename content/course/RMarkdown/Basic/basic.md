@@ -32,9 +32,5 @@ R Markdown follows the syntax in Pandoc's Markdown
 * A pair of double tildes ~ introduces strikethrough
 
 
-## Courses in this program
-
-{{< list_children >}}
-
 
 

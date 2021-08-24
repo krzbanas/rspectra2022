@@ -7,18 +7,6 @@ weight: 30
 type: book
 ---
 
-
-## What you will learn
-
-Basics of R Markdown for manuscripts preparation in R.
-
-## Courses in this program
-
-{{< list_children >}}
-
-
-## References
-
 * references are defined in .bib files
 * pandoc can process a citation only if there is a linked entry in the .bib file
 * A BibTeX entry consists of three elements: a type (@article), a citation-key (banas2021), a number of tags (title, author)
@@ -29,11 +17,5 @@ Basics of R Markdown for manuscripts preparation in R.
 * All citations keys take the 'at' sign @ while square brackets and/or minus signs introduce variation [@bennett2015] [@bennett2015 33-35]
 * The list of references appears after the last line of the document, with no section header
 * For internal links from in-text citations to the reference list, set link-citations: yes in YAML
-
-
-
-
-
-
 
 

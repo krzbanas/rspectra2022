@@ -1,7 +1,7 @@
 ---
-title: R Markdown
+title: Basics
 linkTitle: Basics
-summary: R Markdown
+summary: Basics
 date: '2021-01-24'
 weight: 10
 type: book
@@ -12,9 +12,7 @@ type: book
 
 Basics of R Markdown for manuscripts preparation in R.
 
-## Courses in this program
 
-{{< list_children >}}
 
 R Markdown follows the syntax in Pandoc's Markdown
 
@@ -34,6 +32,9 @@ R Markdown follows the syntax in Pandoc's Markdown
 * A pair of double tildes ~ introduces strikethrough
 
 
+## Courses in this program
+
+{{< list_children >}}
 
 
 

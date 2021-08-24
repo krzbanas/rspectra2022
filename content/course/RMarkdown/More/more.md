@@ -7,9 +7,6 @@ weight: 20
 type: book
 ---
 
-
-## Links, footnotes, equations, lists
-
 * link text to section headers in the same document [Conclusion](#conclusion)
 * Multi-word headers need hyphenation [Literature Review](#literature-review)
 * You can link text to URLs [visit my website](https://resulumit.com/) [email me](mailto:resuluy@uio.no)
@@ -25,5 +22,4 @@ type: book
 * A pair of tildes introduces subscript CO~2~
 * A pair of carets introduces superscript R^2^
 * the syntax here (Markdown-based) is different than the one for equations (LaTeX-based) e.g., R^2^ versus mc^{2}
-
 

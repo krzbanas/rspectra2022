@@ -1,7 +1,7 @@
 ---
-title: R Markdown
+title: References
 linkTitle: References
-summary: R Markdown
+summary: References
 date: '2021-01-24'
 weight: 30
 type: book

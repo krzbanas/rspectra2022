@@ -15,7 +15,7 @@ Uni- and Multivariate Statistics
 {{< icon name="clock" pack="fas" >}} 1-2 hours per week, for 8 weeks
 
 
-#Introduction
+# Introduction
 
 ## PCA
 

@@ -3,7 +3,7 @@ title: Export data
 linkTitle: Export
 date: '2021-01-01'
 type: book
-weight: 50
+weight: 70
 math: true
 tags:
   - Statistics

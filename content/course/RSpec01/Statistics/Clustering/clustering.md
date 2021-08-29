@@ -3,7 +3,7 @@ title: Clustering
 linkTitle: Clustering
 date: '2021-01-01'
 type: book
-weight: 45
+weight: 54
 math: true
 tags:
   - Statistics

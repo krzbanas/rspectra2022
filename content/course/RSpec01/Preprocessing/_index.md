@@ -3,7 +3,7 @@ title: Pre-processing of spectra
 linkTitle: Preprocessing
 date: '2021-01-01'
 type: book
-weight: 20
+weight: 30
 math: true
 tags:
   - Statistics

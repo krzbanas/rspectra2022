@@ -3,7 +3,7 @@ title: Dimension Reduction
 linkTitle: Dimension Reduction
 date: '2021-01-01'
 type: book
-weight: 35
+weight: 52
 math: true
 tags:
   - Statistics

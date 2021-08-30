@@ -9,11 +9,10 @@ tags:
   - Statistics
 ---
 
-How to import spectral data into R?
-
-<!--more-->
+# How to import spectral data into R?
 
 ## Matrix
+In the first column there is wavenumber vector, in subsequent columns there are spectra.
 
 ### In ChemoSpec
 
@@ -62,6 +61,8 @@ object01
 ```
 ## Folder with two column ASCII files
 
+Each spectrum is in separate text file (ASCII) with two columns: wavenumber vector in the first column, intensity (absorbance, transmitance etc.) in the second column.
+
 ### In ChemoSpec
 
 ```r
@@ -86,6 +87,10 @@ sumSpectra(spectra01)
 {{< callout note >}}
 If the data files are in different folder (or subfolder) one should provide `path`. Both full path and relative (`r path ="DATA"`) work.
 {{< /callout >}}
+
+
+### In hyperSpec
+
 
 
 

@@ -20,6 +20,10 @@ Often we would like to add solid or dashed line marking the position of the band
 ## add chip transition lines
 p5<-p4+geom_vline(xintercept=c(1689,1456,1203), colour="blue", alpha=0.9)
 ```
+... and dashed lines
+```r
+p6<-p5+geom_vline(xintercept=c(1144,1387,1481,1724), colour="red", linetype = "dashed", alpha=0.5)
+```
 ### Rectangles
 
 ### Labels

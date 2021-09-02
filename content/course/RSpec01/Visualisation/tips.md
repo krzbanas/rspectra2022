@@ -17,19 +17,20 @@ There is a number of things you may want to add to your plot: lines, semi-transp
 ### Lines
 Often we would like to add solid or dashed line marking the position of the band (peak).
 
-add chip transition lines
+add chip transition lines:
 
 ```r
 p5<-p4+geom_vline(xintercept=c(1689,1456,1203), colour="blue", alpha=0.9)
 ```
-... and dashed lines
+... and dashed lines:
+
 ```r
 p6<-p5+geom_vline(xintercept=c(1144,1387,1481,1724), colour="red", linetype = "dashed", alpha=0.5)
 ```
 ### Rectangles
 
 ### Labels
-add optimization lines labels
+add optimization lines labels:
 ```r
 op_lines<- data.frame(c(1144,1387,1481,1724))
 colnames(op_lines)<-"Position"

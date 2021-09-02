@@ -16,7 +16,10 @@ There is a number of things you may want to add to your plot: lines, semi-transp
 
 ### Lines
 Often we would like to add solid or dashed line marking the position of the band (peak).
-
+```r
+## add chip transition lines
+p5<-p4+geom_vline(xintercept=c(1689,1456,1203), colour="blue", alpha=0.9)
+```
 ### Rectangles
 
 ### Labels

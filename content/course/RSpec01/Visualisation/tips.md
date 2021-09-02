@@ -28,4 +28,9 @@ p6<-p5+geom_vline(xintercept=c(1144,1387,1481,1724), colour="red", linetype = "d
 
 ### Labels
 
-
+## add optimization lines labels
+```r
+op_lines<- data.frame(c(1144,1387,1481,1724))
+colnames(op_lines)<-"Position"
+p7<-p6+geom_label_repel(data=op_lines, aes(x=Position, y=0.25, label=Position), colour="red")+
+```

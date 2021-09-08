@@ -1,6 +1,6 @@
 ---
 title: Import data
-linkTitle: Import
+linkTitle: HDF5 file
 date: '2021-06-09'
 type: book
 weight: 40

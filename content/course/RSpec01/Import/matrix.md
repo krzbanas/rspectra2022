@@ -3,7 +3,7 @@ title: Import data
 linkTitle: Import
 date: '2021-06-09'
 type: book
-weight: 20
+weight: 30
 math: true
 tags:
   - Statistics

@@ -1,9 +1,9 @@
 ---
-title: 📊 Colours in R
-linkTitle: Colours in R
-summary: Colours in R
+title: 📊 `paletteer` package
+linkTitle: `paletteer` package
+summary: `paletteer` package
 date: '2021-01-24'
-weight: 10
+weight: 30
 type: book
 ---
 

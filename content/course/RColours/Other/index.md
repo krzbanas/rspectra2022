@@ -3,7 +3,7 @@ title: 📊 Other resources
 linkTitle: Other resources
 summary: Other resources
 date: '2021-01-24'
-weight: 40
+weight: 50
 type: book
 ---
 

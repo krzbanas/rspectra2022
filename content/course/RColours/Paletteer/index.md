@@ -1,7 +1,7 @@
 ---
-title: 📊 `paletteer` package
-linkTitle: `paletteer` package
-summary: `paletteer` package
+title: 📊 paletteer package
+linkTitle: paletteer package
+summary: paletteer package
 date: '2021-01-24'
 weight: 30
 type: book
